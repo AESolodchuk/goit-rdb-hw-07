@@ -1,0 +1,4 @@
+use mydb;
+
+select id, date, json_object('id',id,'date',date) as JSON 
+from orders

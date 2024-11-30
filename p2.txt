@@ -1,0 +1,6 @@
+use mydb;
+
+select id, 
+date, 
+date + interval 1 day as date_plus_day 
+from orders
